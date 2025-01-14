@@ -8,10 +8,11 @@ This project focuses on developing a support agent chatbot tailored to address "
 
 #### 1.Clone the Repository:
 ~~~
+  cd chatbot
+~~~
+~~~
 git clone https://github.com/Gopi1311/web-chatBot.git
-~~~bash
-cd chatbot
-~~~bash
+
 ~~~
 
 #### 2.Install Dependencies: 
