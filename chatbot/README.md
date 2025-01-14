@@ -34,7 +34,9 @@ npm run build
 ### How toRun the Application
 
 1.Use the setup instructions provided earlier to install dependencies and initialize the project.
+
 2. Start the development server by running: npm start
+   
 3. Open your browser and navigate to the address provided by the server, typically:
 ~~~
 http://localhost:3000
