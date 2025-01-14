@@ -7,12 +7,13 @@ This project focuses on developing a support agent chatbot tailored to address "
 ### Installation and Setup Instruction
 
 #### 1.Clone the Repository:
-~~~
-  cd chatbot
-~~~
+
 ~~~
 git clone https://github.com/Gopi1311/web-chatBot.git
+~~~
 
+~~~
+cd chatbot
 ~~~
 
 #### 2.Install Dependencies: 
