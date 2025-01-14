@@ -1,70 +1,60 @@
-# Getting Started with Create React App
+# README 
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Project Description
 
-## Available Scripts
+This project focuses on developing a support agent chatbot tailored to address "how-to" questions about four Customer Data Platforms (CDPs): Segment, mParticle, Lytics, and Zeotap. The chatbot is designed to retrieve relevant information from the official documentation of these platforms, providing users with step-by-step guidance for completing specific tasks or achieving desired outcomes. Additionally, it offers enhanced functionalities, such as handling diverse question variations, addressing cross-CDP comparisons, and delivering advanced assistance.
 
-In the project directory, you can run:
+### Installation and Setup Instruction
 
-### `npm start`
+#### 1.Clone the Repository:
+~~~
+git clone https://github.com/Gopi1311/web-chatBot.git
+~~~bash
+cd chatbot
+~~~bash
+~~~
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+#### 2.Install Dependencies: 
+  Ensure you have Node.js and npm installed. Then, run the following command to install the required packages:
+~~~
+npm install
+~~~
+#### 3.Run the Development Server: 
+  Start the application using react:
+~~~
+npm start
+~~~
+#### 4.Build for Production:
+To build the application for production, use:
+~~~
+npm run build
+~~~
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### How toRun the Application
 
-### `npm test`
+1.Use the setup instructions provided earlier to install dependencies and initialize the project.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+2. Start the development server by running: npm start
 
-### `npm run build`
+3. Open your browser and navigate to the address provided by the server, typically:
+~~~
+http://localhost:3000
+~~~
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Interact with the Chatbot:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Ask "how-to" questions related to Segment, mParticle, Lytics, or Zeotap directly in the chatbot interface. Example queries include:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+#### "How-to" Questions:
 
-### `npm run eject`
+  "How do I set up a new source in Segment?"
+  "How can I create a user profile in mParticle?"
+  
+#### Cross-CDP Comparisons:
+  
+  "How does Segment's audience creation process compare to Lytics'?"
+  
+#### Advanced Configurations:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+  "How can I integrate my data with Zeotap?"
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
