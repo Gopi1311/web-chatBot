@@ -32,7 +32,7 @@ To build the application for production, use:
 npm run build
 ~~~
 
-### How toRun the Application
+### How to Run the Application
 
 1.Use the setup instructions provided earlier to install dependencies and initialize the project.
 
